@@ -8,6 +8,10 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer'
 
+function App() {
+  const handleSearch = (query) => {
+    console.log('Searching for:', query);
+  };
 
 const App = () => {
   return (
@@ -22,6 +26,7 @@ const App = () => {
       
     </div>
   )
+}
 }
 
 export default App
