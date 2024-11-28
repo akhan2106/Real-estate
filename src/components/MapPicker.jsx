@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 // Replace with your Mapbox access token
-mapboxgl.accessToken = 'your_mapbox_access_token';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWtoaGFuIiwiYSI6ImNtNDFxNmN0NDAxbTIyanB0aDQ5MWtzZTEifQ.OgrNyHzedIy6n2JEIeRQqA';
 
 export function MapPicker({ coordinates, setCoordinates }) {
   const mapContainer = useRef(null);
